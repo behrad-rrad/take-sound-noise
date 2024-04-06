@@ -19,26 +19,6 @@ if __name__ == "__main__":
     save_audio("enhanced.wav", enhanced, df_state.sr())
 
 
-#     # Load the audio file (in this example, 'your_audio_file.mp3')
-# audio_path = "C:\\Users\\behra\\OneDrive\\Desktop\\Sem.6\\Signal ha o systemha\\Project\\noisy_snr0.wav"
-# # audio_path2="C:\\Users\\behra\\OneDrive\\Desktop\\Sem.6\\Signal ha o systemha\\Project\\enchanced.wav"
-# y, sr = librosa.load(audio_path)
-# # y, sr = librosa.load(audio_path2)
-
-
-# # Create a time axis in seconds
-# time = np.arange(0, len(y)) / sr
-
-# # Plot the waveform
-# plt.figure(figsize=(14, 5))
-# plt.plot(time, y, linewidth=0.3, color='b')
-# plt.xlabel('Time (s)')
-# plt.ylabel('Amplitude')
-# plt.title('Waveform')
-# plt.show()
-    
-
-
 
    # Load the first audio file
 audio_path_1 = "C:\\Users\\behra\\OneDrive\\Desktop\\Sem.6\\Signal ha o systemha\\Project\\noisy_snr0.wav"
